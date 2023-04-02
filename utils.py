@@ -1,4 +1,10 @@
 def transform(func: str, value: str, file_data: list[str]) -> list[str]:
+    """
+    :param func: function name
+    :param value: value to be applied to func
+    :param file_data: the file to which func will be applied
+    :return: a list of the modified file
+    """
     if func == 'filter':
         return list(filter(lambda v: v in value, file_data))
 
