@@ -6,7 +6,7 @@ def transform(func: str, value: str, file_data: list[str]) -> list[str]:
     :return: a list of the modified file
     """
     if func == 'filter':
-        return list(filter(lambda v: v in value, file_data))
+        return list(filter(lambda v: value in v, file_data))
 
     if func == 'map':
         return list(map(lambda v: v.split()[int(value)], file_data))
