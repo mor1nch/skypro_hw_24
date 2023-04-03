@@ -34,3 +34,5 @@ ___
 3. Install all files from requirements.txt
 4. Check location of all files
 5. Run file "app.py" (Run app.py) or open file app.py and press key combination "control" + "R" (macOS)
+___
+_created by [morinch](https://github.com/mor1nch)_
