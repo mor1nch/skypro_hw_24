@@ -1,6 +1,6 @@
 Skypro Homework
 ==
-Lesson 23. Functional programming.
+Lesson 24. Typing and additional topics.
 -
 ___
 **In this project:** 
@@ -16,7 +16,7 @@ _Example_: {
   'cmd2': 'map',
   'value2': '0',
 }
-3. Query contains several commands: filter, map, unique, sort, limit 
+3. Query contains several commands: filter, map, unique, sort, limit, regex
 4. Only 2 commands are always executed
 
 
@@ -25,7 +25,7 @@ _Example_: {
 1. Use of functional programming
 2. Writing lambda functions
 3. Using List Comprehensions
-4. Creating an app and api (frameworks: flask, flask_restx)
+4. Project typing (typing framework)
 ___
 **How to start a project:**
 

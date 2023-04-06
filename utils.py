@@ -1,3 +1,6 @@
+import re
+
+
 def transform(func: str, value: str, file_data: list[str]) -> list[str]:
     """
     :param func: function name
@@ -21,3 +24,9 @@ def transform(func: str, value: str, file_data: list[str]) -> list[str]:
 
     if func == 'limit':
         return [i for i in list(file_data)[:int(value)]]
+
+    if func == 'regex':
+        regex = re.compile(value)
+        return list(filter(lambda v: regex.findall(v), file_data))
+
+    return []
